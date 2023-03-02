@@ -25,7 +25,7 @@ public class TestOperators {
 
         String name = "denis";
         boolean result = name instanceof String;
-        System.out.println( result );
+        System.out.println(result);
 
         byte c = 20;
         byte r = 60;
@@ -33,10 +33,24 @@ public class TestOperators {
         System.out.print("Result overflow " + s);
 
 
+        boolean lesson = false;
+        if (lesson) {
+            System.out.println("Basics");
+        } else {
+            System.out.println("Java");
 
+            int liter_of_gasoline = 45;
+            double month = 12;
+            int days_in_a_month = 365;
+            double Liters_per_year = ( days_in_a_month * liter_of_gasoline ); // Если заправляться каждый день
+            System.out.print("Liters_per_year");
+
+
+
+
+        }
     }
-
-
-
 }
+
+
 
